@@ -10,7 +10,8 @@ body {
 }
 
 button {
-  border: firebrick;
+  color:  firebrick;
+
 }
 
 .card-container {
@@ -21,4 +22,15 @@ button {
 .card-item {
   border: 2px dashed red;
   padding: 10px;
+}
+
+@media screen and (max-width 992px) {
+  .card-item{
+    width= 50%
+  }
+}
+@media screen and (max-width:768px){
+  card-item{
+    width:100%
+  }
 }
