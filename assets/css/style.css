@@ -7,3 +7,6 @@ body {
   border: 1px solid firebrick;
   height: 100vh;
 }
+button {
+  border: firebrick;
+}
