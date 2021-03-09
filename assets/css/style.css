@@ -1,7 +1,6 @@
-html{
- font-size: 10px;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-
+html {
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
@@ -12,26 +11,24 @@ body {
   height: 100vh;
   position: relative;
 }
-header>h1{
+header > h1 {
   font-size: 5rem;
-  
 }
 
-.navbar{
+.navbar {
   font-size: 3rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
 }
 .navbar a:hover {
   color: red;
   cursor: pointer;
-
 }
 
-.my-image{
+.my-image {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 600px;
@@ -45,19 +42,24 @@ header>h1{
   justify-content: safe;
 }
 
+.card-image {
+  border: 0rem;
+  display: flex;
+  max-width: 0.5px;
+  max-height: 0.5px;
+}
 .card-item {
   border: 2px dashed red;
   padding: 10px;
 }
 
-
-@media screen and (max-width 768px) {
-  .card-item{
-    width= 50%
+@media screen and (max-width: 768px) {
+  .card-item {
+    width: 50%;
   }
 }
-@media screen and (max-width:400px){
-  .card-item{
-    width:100%
+@media screen and (max-width: 400px) {
+  .card-item {
+    width: 100%;
   }
 }
