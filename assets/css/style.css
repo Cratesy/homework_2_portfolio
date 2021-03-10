@@ -20,7 +20,7 @@ header > h1 {
   border: 1px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 .navbar a:hover {
   color: red;
@@ -47,15 +47,13 @@ header > h1 {
   padding: 1rem;
   font-size: 2.5rem;
 }
+.my-image-container {
+  text-align: center;
+}
 
 .my-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   max-width: 600px;
   max-height: 600px;
-  border: 5px solid red;
 }
 
 .card-container {
