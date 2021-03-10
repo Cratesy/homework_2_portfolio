@@ -17,6 +17,7 @@ header > h1 {
 
 .navbar {
   font-size: 3rem;
+  border: 1px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -24,6 +25,19 @@ header > h1 {
 .navbar a:hover {
   color: red;
   cursor: pointer;
+}
+.contact-me {
+  background-color: red;
+  padding: 1rem;
+  margin: 0rem;
+}
+.contact-me h2 {
+  font-size: 3rem;
+}
+
+.linkedin-logo {
+  padding: 0rem;
+  border: 0rem;
 }
 
 .about-me {
