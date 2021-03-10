@@ -41,11 +41,6 @@ header > h1 {
   max-width: 80px;
   max-height: 80px;
 }
-button {
-  border: 0rem;
-  padding: 0rem;
-}
-
 .about-me {
   background-color: royalblue;
   margin: 0;
