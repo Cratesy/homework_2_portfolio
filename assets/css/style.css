@@ -26,6 +26,12 @@ header > h1 {
   cursor: pointer;
 }
 
+.about-me {
+  margin: 0;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
 .my-image {
   position: absolute;
   top: 50%;
@@ -43,10 +49,10 @@ header > h1 {
 }
 
 .card-image {
-  border: 0rem;
+  border: 1rem;
   display: flex;
-  max-width: 0.5px;
-  max-height: 0.5px;
+  max-width: 200px;
+  max-height: 150px;
 }
 .card-item {
   border: 2px dashed red;
