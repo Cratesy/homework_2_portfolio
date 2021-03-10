@@ -65,12 +65,17 @@ header > h1 {
 .card-image {
   border: 1rem;
   display: flex;
-  max-width: 200px;
-  max-height: 150px;
+  max-width: 1px;
+  max-height: 1px;
+  background-color: yellow;
 }
-.my-work {
+.my-projects {
   border: 2px dashed red;
   padding: 10px;
+}
+
+footer {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
