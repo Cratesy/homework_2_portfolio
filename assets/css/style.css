@@ -10,9 +10,14 @@ body {
   height: 100vh;
   position: relative;
 }
+
+/* my name header */
+
 header > h1 {
   font-size: 5rem;
 }
+
+/* nav bar */
 
 .navbar {
   font-size: 3rem;
@@ -34,18 +39,25 @@ header > h1 {
   font-size: 3rem;
 }
 
+/* logo */
+
 .linkedin-logo {
   padding: 0rem;
   border: 0rem;
   max-width: 80px;
   max-height: 80px;
 }
+
+/* about me paragraph */
+
 .about-me {
   background-color: royalblue;
   margin: 0;
   padding: 1rem;
   font-size: 2.5rem;
 }
+
+/* my image */
 .my-image-container {
   text-align: center;
   margin: 20px auto;
@@ -55,6 +67,7 @@ header > h1 {
   max-width: 600px;
   max-height: 600px;
 }
+/* all my project cards */
 
 .card-container {
   display: flex;
@@ -70,6 +83,7 @@ header > h1 {
   height: 300px;
   width: 300px;
 }
+
 .card-image img {
   width: 100%;
   height: 100%;
@@ -80,18 +94,21 @@ header > h1 {
   border: 2px dashed red;
   padding: 10px;
 }
+/* footer */
 
 footer {
   font-size: 1.5rem;
 }
 
+/* media queries */
+
 @media screen and (max-width: 768px) {
   .card-item {
-    width: 50%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 400px) {
   .card-item {
-    width: 100%;
+    width: 50%;
   }
 }
