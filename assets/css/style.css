@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: dimgray;
-  border: 1px solid firebrick;
   height: 100vh;
   position: relative;
 }
@@ -27,9 +26,9 @@ header > h1 {
   cursor: pointer;
 }
 .contact-me {
-  background-color: red;
   padding: 1rem;
   margin: 0rem;
+  text-align: center;
 }
 .contact-me h2 {
   font-size: 3rem;
