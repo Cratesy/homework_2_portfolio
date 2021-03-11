@@ -67,6 +67,17 @@ header > h1 {
   max-width: 600px;
   max-height: 600px;
 }
+/* showcase class */
+.showcase {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.showcase img {
+  height: 300px;
+  width: 300px;
+}
+
 /* all my project cards */
 
 .card-container {
