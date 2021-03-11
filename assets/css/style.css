@@ -51,7 +51,6 @@ header > h1 {
 /* about me paragraph */
 
 .about-me {
-  background-color: royalblue;
   margin: 0;
   padding: 1rem;
   font-size: 2.5rem;
@@ -102,7 +101,6 @@ header > h1 {
 }
 
 .my-projects {
-  border: 2px dashed red;
   padding: 10px;
 }
 /* footer */
