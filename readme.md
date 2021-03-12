@@ -18,7 +18,10 @@ I've done a;
 - fits multiple screen sizes
 - semantic html
 
-## Screenshots
+## Screenshot
+
+<img src="./assets/images/screencapture-127-0-0-1-5500-index-html-2021-03-12-18_39_43.jpg"
+alt="screenshot of deployed website"/>
 
 ## link to deployed website
 
