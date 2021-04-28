@@ -40,14 +40,10 @@ header > h1 {
 }
 
 /* logo */
-
-.linkedin-logo {
-  padding: 0rem;
-  border: 0rem;
-  max-width: 80px;
-  max-height: 80px;
+.logo {
+  color: red;
+  font-size: 60px;
 }
-
 /* about me paragraph */
 
 .about-me {
